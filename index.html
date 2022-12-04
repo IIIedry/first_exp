@@ -12,6 +12,15 @@
     <div class="congala"></div>
     <div class="congala"></div>
     <div class="congala"></div>
-    <div class=""></div>
+
+    <script>
+        const congala = document.querySelectorAll('.congala');
+        congala.forEach((congala) => {
+            congala.addEventListener('click', () => {
+                congala.classList.toggle('active');
+            });
+        });
+        </script>
+        <div><p>gaala</p></div>
 </body>
 </html>
